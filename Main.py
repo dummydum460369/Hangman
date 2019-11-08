@@ -3,5 +3,6 @@ from Static_Resources import *
 test = Round(word=get_random_word(), tries=4)
 # while test.test_round():
 #     pass
+intro()
 while test.start_round():
     pass

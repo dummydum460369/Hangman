@@ -53,9 +53,9 @@ def intro():
                 dispword += word_list[i]
         frontspace = frontspace + 2 if frontspace < 6 else 0
         enterkeys = enterkeys + 3 if enterkeys < 6 else 0
-        printer(dispword)
+        if time() - start < 2:
+            printer(word)
+        else:
+            printer(dispword)
         index = index + 1 if index < 12 else 0
         sleep(1 / 8)
-
-
-intro()
