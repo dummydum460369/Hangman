@@ -59,3 +59,6 @@ def intro():
             printer(dispword)
         index = index + 1 if index < 12 else 0
         sleep(1 / 8)
+    else:
+        print()
+        print()
